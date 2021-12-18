@@ -16,6 +16,12 @@ project "box2d"
 		"include/**.h"
 	}
 
+	includedirs
+	{
+		"include",
+		"src"
+	}
+
 	filter "system:windows"
 
 	filter "system:linux"
