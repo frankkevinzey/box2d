@@ -3,7 +3,7 @@ project "box2d"
 	systemversion "latest"
 	language "C++"
 	cppdialect "C++17"
-	staticruntime "off"
+	staticruntime "on"
 
 	targetdir (bin .. "/%{prj.name}")
 	objdir (obj .. "/%{prj.name}")
